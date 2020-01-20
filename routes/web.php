@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::resource('/pages', 'EmployeeController');
+
+Route::get('/tasks', 'TaskController@index');

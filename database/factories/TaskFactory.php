@@ -9,7 +9,7 @@ use App\Task;
 
 $factory->define(Task::class, function (Faker $faker) {
     return [
-        'name' => $faker ->word,
+        'name' => $faker->word,
         'description' => $faker->sentence,
         'start_date' => $faker->date
     ];
